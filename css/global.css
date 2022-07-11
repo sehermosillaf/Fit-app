@@ -1,0 +1,135 @@
+
+body {
+  background-color: rgb(177, 171, 163);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(109, 51, 51);
+}
+
+/*Global*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*Navigation*/
+
+header #branding {
+  float: left;
+  color: rgb(228, 215, 215);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.stressed {
+  color: rgb(236, 203, 14);
+}
+
+nav {
+  overflow: hidden;
+  min-height: 5em;
+}
+.nav-links {
+  display: flex;
+  float: right;
+}
+
+.nav-links li {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.nav-links a {
+  color: rgb(228, 215, 215);
+  box-sizing: border-box;
+  transition: all 70ms ease-in-out;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: rgba(228, 215, 215, 0.527);
+}
+
+/*Main Section - Form*/
+.legend {
+  text-align: center;
+}
+.legend , .form-color{
+  color: rgb(228, 215, 215);
+}
+.form-label {
+  color:rgb(238, 227, 162);
+}
+
+.calories-form{
+  width: min-content;
+}
+
+.calories-result {
+  display:block;
+  width: 70%;
+  height: 300px;
+  border: solid 2px #080808;
+  background-color: beige;
+  padding:20px;
+  margin-top: 20px;
+  float: right;
+  box-shadow: 5px 8px 10px #080808;
+}
+
+.calories-result h3 {
+  padding-top: 15px;
+}
+
+
+.left-form {
+  float: left;
+  overflow: hidden;
+}
+
+.form-btn {
+  display: flex;
+  font-family: sans-serif;
+  border-radius: 0;
+  background-color: rgb(236, 203, 14);
+  margin: 10px auto;
+  font-size: 16px;
+  color: #080808;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  box-shadow: 2px 2px 3px #080808;
+  border-radius: 2px;
+
+}
+
+.form-btn:hover {
+  filter: saturate(1%);
+}
+
+#output-box {
+  width: 100px;
+  height: 30px;
+  border: solid 1px transparent;
+  padding: 5px;
+  transition: all 7s ease-in-out;
+}
+
+
+
+
+

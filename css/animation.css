@@ -1,0 +1,9 @@
+
+@keyframes fadeOnLoad {
+    from {
+        color: beige;
+    }
+    to {
+        color: #080808;
+    }
+}

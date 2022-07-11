@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="/css/global.css">
+
+    <title>Fit App</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 id="branding">Fit <span class="stressed">Weight </span></h2>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Gráfico</a></li>
+            <li><a href="#">Otros Proyectos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <form class="calories-form left-form">
+          <fieldset>
+            <legend class="legend">Calcula tus calorias</legend>
+            <div class="gender-info">
+              <label for="gender" class="form-label">Sexo:</label> <br />
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male" class="form-color">Hombre</label><br />
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female" class="form-color">Mujer</label><br />
+            </div>
+
+            <div class="weight-info">
+              <label for="weight" class="form-label">Peso </label>
+              <input
+                type="text"
+                id="weight"
+                name="weight"
+                placeholder="Kilogramos"
+              />
+              <br />
+            </div>
+            <div class="height-info">
+              <label for="height" class="form-label" place>Estatura</label>
+              <input type="text" id="height" placeholder="Centimetros" />
+            </div>
+
+            <div class="age-info">
+              <label for="age" class="form-label">Edad</label>
+              <input type="text" id="age" />
+            </div>
+            <div class="activity-level">
+              <label for="activity-level" class="form-label"
+                >Nivel de activiadad</label
+              >
+              <select name="activity" id="activity-level">
+                <option value="sedentary">Sedentario</option>
+                <option value="lightly">Actividad ligera</option>
+                <option value="moderately">Actividad moderada</option>
+                <option value="active">Actividad intensa</option>
+                <option value="extra">Actividad muy intensa</option>
+                <input
+                  type="submit"
+                  id="submit"
+                  value="Calcular"
+                  class="form-btn"
+                />
+              </select>
+            </div>
+          </fieldset>
+        </form>
+
+        <div class="right-box">
+          <div class="calories-result">
+            <h3>Metabolismo basal: <span class="output-box"></span></h3>
+            <h3>Calorias de Mantenimiento: <span class="output-box"></span></h3>
+            <h3>Calorias para Adelgazar: <span class="output-box"></span></h3>
+            <h3>
+              Calorias para subir de peso: <span class="output-box"></span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+  
+</html>
