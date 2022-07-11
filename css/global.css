@@ -81,13 +81,13 @@ nav {
 
 .calories-result {
   display:block;
-  width: 70%;
+  width: 50%;
   height: 300px;
   border: solid 2px #080808;
   background-color: beige;
   padding:20px;
-  margin-top: 20px;
-  float: right;
+  margin-top: 15px;
+  margin-left: 30%;
   box-shadow: 5px 8px 10px #080808;
 }
 
